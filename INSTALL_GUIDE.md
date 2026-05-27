@@ -1,5 +1,7 @@
 # 傻瓜安裝教學 — Claude 用量顯示器
 
+**Language / 語言：** [English](INSTALL_GUIDE.en.md) | 繁體中文
+
 > 完全不需要懂程式。跟著步驟做就好。
 
 ---

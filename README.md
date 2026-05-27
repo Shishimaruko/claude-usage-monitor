@@ -1,5 +1,7 @@
 # Claude Usage Monitor
 
+**Language / 語言：** English | [繁體中文](README.zh-TW.md)
+
 A lightweight macOS menu bar app that shows your [claude.ai](https://claude.ai) session usage percentage in real time — without needing to open a browser.
 
 ![Menu bar screenshot showing "Claude 73%"](https://placehold.co/300x40/1a1a1a/ffffff?text=Claude+73%25)
@@ -94,7 +96,7 @@ The display will update within a few seconds.
 | Display | Meaning |
 |---------|---------|
 | `Claude …` | Fetching data |
-| `Claude 62%` | 5-hour window is 62% used |
+| `Claude 62%` | 5-hour window is 62% used (example) |
 | `Claude !` | Network error or expired cookie |
 
 The dropdown also shows **7-day: X%** (rolling 7-day usage).
