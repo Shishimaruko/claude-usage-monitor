@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.DS_Store
+
+# Config file lives outside the project directory (~/.claude_monitor.json)
+# but add these patterns as a safeguard
+*.json
+!package.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.AppleDouble
+.LSOverride
