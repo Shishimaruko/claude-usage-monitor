@@ -14,6 +14,13 @@ A lightweight macOS menu bar app that shows your [claude.ai](https://claude.ai) 
 
 ---
 
+## Security Notice
+
+- **Your `sessionKey` cookie is equivalent to your password.** Never share it with anyone.
+- This tool stores the cookie locally at `~/.claude_monitor.json` (mode 600) and sends it only to `claude.ai`. No third-party servers are involved.
+- If you suspect your cookie has been compromised, go to claude.ai → Account Settings → Sign out all devices.
+- This is an unofficial open-source tool. It is not affiliated with or endorsed by Anthropic.
+
 ## Requirements
 
 | | |

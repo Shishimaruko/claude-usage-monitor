@@ -4,6 +4,27 @@
 
 ---
 
+## ⚠️ 資安警語（請先閱讀）
+
+使用本工具前，請確認你了解以下幾點：
+
+1. **Cookie 等同密碼**
+   你複製的 `sessionKey` Cookie 可以完整代表你的 Claude 帳號身份。任何拿到這串文字的人都能以你的身份登入。請勿透過 LINE、Email、截圖等方式傳給任何人，包含聲稱是技術支援的人員。
+
+2. **只從官方來源下載**
+   請確認你安裝的是來自 `https://github.com/Shishimaruko/claude-usage-monitor` 的版本。從其他來源下載的「修改版」可能暗藏竊取 Cookie 的惡意程式碼。
+
+3. **本工具不會上傳你的資料**
+   Cookie 只儲存在你的電腦 `~/.claude_monitor.json`，程式只會對 `claude.ai` 發送請求。你可以自行閱讀 `app.py` 的原始碼確認，或請懂程式的朋友協助審查。
+
+4. **懷疑外洩時立即處理**
+   如果你不確定 Cookie 是否已洩漏，請登入 [claude.ai](https://claude.ai) → 帳號設定 → 登出所有裝置，Cookie 會立即失效。
+
+5. **此工具與 Anthropic 官方無關**
+   這是非官方的個人開源工具，Anthropic 不提供任何支援或擔保。
+
+---
+
 ## 這是什麼？
 
 裝好之後，你的 Mac 右上角會一直顯示你的 Claude 用量，例如 **Claude 45%**，不用一直開瀏覽器查。
